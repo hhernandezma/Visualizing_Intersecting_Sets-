@@ -1,4 +1,4 @@
-# Visualizing_Intersecting_Sets-
+# UpSet: Visualizing Intersecting Sets
 
 # A5: Estudio de técnicas de visualización de datos (PEC2)
 
@@ -12,7 +12,7 @@ La actividad ha sido realizada de manera individual por Hernando Hernández Mari
 
 # Descripción del DataSet - movies
 
-El conjunto de datos -que se encuentra en los DataSet’s del programa R- presenta un listado de 3883 películas. De cada una de las películas se presenta el nombre de la película, la fecha de lanzamiento (entre los años 1919 y 2000), el género (existen 17), el promedio de calificación y el tiempo.
+El conjunto de datos -que se encuentra en los DataSet’s del programa R- presenta un listado de 3883 películas. De cada una de las películas se presentan las siguientes 21 variables: el nombre de la película, la fecha de lanzamiento (entre los años 1919 y 2000), el género (existen 17), el promedio de calificación y el tiempo.
 
 # Visualización del Data Set
 
