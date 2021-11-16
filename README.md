@@ -4,7 +4,7 @@
 
 # Descripción 
 
-Ejercicio realizado como PEC2 1 de la asignatura M2.859 - Visualización de datos aula 1 dentro del Master de Ciencia de Datos de la Universitat Oberta de Catalunya.
+Ejercicio realizado como PEC2 de la asignatura M2.859 - Visualización de datos aula 1 dentro del Master de Ciencia de Datos de la Universitat Oberta de Catalunya.
 
 # Miembros del Equipo 
 
