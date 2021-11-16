@@ -1,0 +1,54 @@
+---
+title: 'PEC2: Estudio de técnicas de visualización de datos'
+author: "Hernando Hernández Mariño"
+date: '`r format(Sys.Date(),"%e de %B, %Y")`'
+output:
+  html_document:
+  toc: yes
+  number_sections: yes
+  toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+library(UpSetR)
+library(plyr)
+library(gridExtra)
+library(gridBase)
+```
+
+# 1.Cargar datos
+
+```{r read}
+# Lectura de datos
+movies <- read.csv(system.file("extdata","movies.csv",package = "UpSetR"), header = TRUE, sep=";")
+```
+
+```{r str}
+# Estructura del conjunto de datos
+str(movies)
+```
+
+# 2. Procedimiento a realizar.
+
+```{r chunck1}
+upset(movies, nsets = 10, nintersects = 30, mb.ratio = c(0.5, 0.5),
+      order.by = c("freq", "degree"), decreasing = c(TRUE,FALSE))
+```
+
+# 3. Análisis e interpretación de resultados.
+
+En el lado izquierdo se observan unas barras que representan el tamaño total de cada conjunto. Se evidencian 10 conjunto de datos. Así por ejemplo, en el caso de “Drama,  hay un poco más de 1500 películas que se identifican con el género dramático.
+
+En la parte superior se observa el tamaño de cada conjunto que se cruza. Ahora bien, si se completa un punto negro, ese atributo se incluye en el conjunto. Si el punto es gris, entonces ese atributo no está en el conjunto; los conjuntos están separados, es decir, no se superponen. 
+
+A la izquierda del gráfico se observa los puntos de datos representados de forma única en las barras de la parte superior; por ejemplo, la segunda barra representa a 574 películas que son del género “Comedy”. 
+
+En contraste, en las barras de la izquierda se aprecian las distintas intersecciones de los géneros de las películas; por ejemplo, la barra que representa a 174 películas cuyos géneros “Comedy” y “Drama” se entre cruzan. 
+
+Es interesante observar del gráfico que las películas entre los años 1919 y 2020 son únicas en relación a su género o manejan no más de dos géneros. 
+
+
