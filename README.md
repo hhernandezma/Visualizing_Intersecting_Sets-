@@ -1,5 +1,7 @@
 # UpSet: Visualizing Intersecting Sets
 
+La visualización de intersección o cruce de conjuntos es una técnica de exploración de datos a partir de una tabla con gráficos de barras. Para tal fin se utiliza el paquete UpSetR del programa R que permite encontrar patrones dentro de conjunto de datos complejos con varios atributos y, lo hace agrupando puntos de datos que tienen muchos de los mismos valores en diferentes atributos, en otras palabras, UpSetR encuentra los conjuntos de intersección más grandes; se recomienda que las variables sean binarias o se puedan convertir en ellas.
+
 # A5: Estudio de técnicas de visualización de datos (PEC2)
 
 # Descripción 
@@ -16,4 +18,4 @@ El conjunto de datos -que se encuentra en los DataSet’s del programa R- presen
 
 # Visualización del Data Set
 
-Se presenta una visualización de intersección o cruce de conjuntos como una técnica de exploración de datos a partir de una tabla con gráficos de barras. Para tal fin se utiliza el paquete UpSetR del programa R que permite encontrar patrones dentro de conjunto de datos complejos con varios atributos tal cual como el DataSet – movies y, lo hace agrupando puntos de datos que tienen muchos de los mismos valores en diferentes atributos, en otras palabras, UpSetR encuentra los conjuntos de intersección más grandes; se recomienda que las variables sean binarias o se puedan convertir en ellas. Para el presente caso es observar cuantas películas comparten los mismos géneros y cuales son, por ejemplo.
+Se presenta una visualización de intersección o cruce de conjuntos como una técnica de exploración de datos a partir de una tabla con gráficos de barras con el fin de observar cuantas películas comparten los mismos géneros y cuales son.
