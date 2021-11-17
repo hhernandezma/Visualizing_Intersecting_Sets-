@@ -2,7 +2,7 @@
 
 La visualización de intersección o cruce de conjuntos es una técnica de exploración de datos a partir de una tabla con gráficos de barras. Para tal fin y en este caso se utiliza el paquete UpSetR del programa R que permite encontrar patrones dentro de conjunto de datos complejos con varios atributos y, lo hace agrupando puntos de datos que tienen muchos de los mismos valores en diferentes atributos. 
 
-En otras palabras, dicho paquete del porgrama R encuentra los conjuntos de intersección más grandes, mostrando así los elementos o datos que tienen características en común. Al usar el paquete del programa R se recomienda que las variables sean binarias o se puedan convertir en ellas.
+En otras palabras, dicho paquete del programa R encuentra los conjuntos de intersección más grandes, mostrando así los elementos o datos que tienen características en común. Al usar el paquete del programa R se recomienda que las variables sean binarias o se puedan convertir en ellas.
 
 # A5: Estudio de técnicas de visualización de datos (PEC2)
 
